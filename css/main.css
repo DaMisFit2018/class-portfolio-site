@@ -1,0 +1,160 @@
+/*****BASED STYLES*****/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    text-align: center;
+}
+body {
+	font-family: 'lora', sans-serif;	
+}
+#about,#skills,#work,#contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;	
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.half-width img {
+    width: 100%;
+    height: px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+
+
+/*****HEADER*****/
+header {
+    height: 800px;
+    background-image: url(../img/creative-atelier-in-a-loft-PL3FSKQ.JPG);
+	background-size: cover;
+}
+h1 {
+    padding: 50px 0;
+	font-family: `lora`, serif;
+    font-size: 36px;
+    color: #673ab7;
+    font-weight: 800;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0;
+header h2 span {
+    color: #2b2b2b;
+    text-shadow: 0px 0px;
+    text-shadow: 0px 4px;
+    text-shadow: 0px 4px;
+    text-shadow: 0px 5px;
+    text-shadow: 0px 0px;
+    text-shadow: 3px 0px;
+    text-shadow: 0px 0px 10px;
+    text-shadow: 0px 0px 0px;
+    text-shadow: 0px 0px;
+    text-shadow: 5px 0px;
+    text-shadow: 0px 3px;
+    text-shadow: 0px 0px 5px;
+    text-shadow: 0px 0px 0px;
+}
+}
+/********ABOUT SECTION*****/
+
+#about {
+	background-color: #EFEFDE;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size:36px;
+}
+#about h3 {
+    font-family: 'Lora', serif;
+    font-size:20px;
+	color: darkgoldenrod;
+}
+
+#about p {
+    font-size:21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-right: 50px;
+}
+/*****SKILLS SECTION*****/
+#skills {
+	background-color: ;
+    text-align: center;
+    height: 700px;
+}
+#skills .full-width {
+    padding: 115px 0;
+}
+#skills h3 {
+    font-size:24px;
+    width: ;
+    margin: 0 auto;
+    color: #2b2b2b;
+}
+ 
+#skills p {
+    font-family: 'lora', serif;
+    font-size:18px;
+    line-height:1.5
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+/*****WORK SECTION*****/
+
+#work {
+	background-color:#EFEFDE ;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+#work h3 {
+    font-size:24px;
+    width: ;
+    margin: 0 auto;
+    color: #2b2b2b;
+}
+ 
+#work p {
+    font-family: 'lora', serif;
+    font-size:18px;
+    line-height:1.5
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+/*****CONTACT*****/
+#contact {
+    height: 200px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #a2c4c9;
+	margin: 10px;
+}
